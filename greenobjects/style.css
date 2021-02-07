@@ -1,0 +1,690 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  font-family: monospace;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/*start*/
+
+	
+body{
+	padding: 20px;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+@font-face {
+	font-family: "Palatino";
+	font-weight: 300;
+	src:
+	url("fonts/Palatino-Italic.woff") format("woff");
+}
+	body{
+		font-family: "Palatino"; sqo
+		font-weight: 300;
+		text-align: center; 
+
+	}
+
+.a1{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 10px; 
+	position: fixed;
+	color: balck;
+	
+}
+
+.a2{
+	width: 100%;
+	left: 0;
+	top: 120px; 
+	position: fixed;
+	color: black;
+	line-height: 1.5; 
+	font-size: 16px
+
+}
+.greenlist li{
+	border-top: 1px solid black;  
+	margin: 0px;
+	padding: 4px;
+	background-color: white;
+}
+
+.greenlist :hover {
+	font-size: 100%;
+	background: green;
+	color: white;
+
+}
+
+.card{
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin: 5px;
+	border-radius: 15px 15px;
+	font-size: 20px;
+	filter: blur(5px);
+}
+
+.card-name{
+	font-family: "Palatino", "Noto Sans KR";
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 130px;
+	position: relative;
+
+}
+
+.card-name:hover{ 
+	color: white;
+}
+
+/*////////////list page/////*/
+/*//////////card strart/////
+*/
+
+#card1{
+	background-color: #57a570;
+	color: #57a570;
+}
+
+#card2{
+	background-color: #1b503d;
+	color: #1b503d;
+}
+
+#card3{
+	background-color: #005a40;
+	color: #005a40;
+}
+
+#card4{
+	background-color: #395146;
+	color: #395146;	
+}
+
+#card5{
+	background-color: #9bb456;
+	color: #9bb456;	
+}
+
+#card6{
+	background-color: #22422e;
+	color: #22422e;	
+}
+#card7{
+	background-color: #4ab263;
+	color: #4ab263;	
+}
+#card8{
+	background-color: #0e9b70;
+	color: #0e9b70;	
+}
+#card9{
+	background-color: #09893f;
+	color: #09893f;	
+}
+#card10{
+	background-color: #0f8252;
+	color: #0f8252;	
+}
+#card11{
+	background-color: #5ab543;
+	color: #5ab543;	
+}
+
+#card12{
+	background-color: #48876d;
+	color: #48876d;	
+}
+#card13{
+	background-color: #205852;
+	color: #205852;	
+}
+#card14{
+	background-color: #212d21;
+	color: #212d21;	
+}
+#card15{
+	background-color: #0f8252;
+	color: #0f8252;	
+}
+#card16{
+	background-color: #364c35;
+	color: #364c35;	
+}
+#card17{
+	background-color: #3dab60;
+	color: #3dab60;	
+}
+
+#card18{
+	background-color: #32a352;
+	color: #32a352;	
+}
+
+#card1:hover{
+	filter: blur(0px);
+}
+
+#card2:hover{
+	filter: blur(0px);
+}
+
+#card3:hover{
+	filter: blur(0px);
+}
+
+#card4:hover{
+	filter: blur(0px);
+}
+
+#card5:hover{
+	filter: blur(0px);
+}
+
+#card6:hover{
+	filter: blur(0px);
+}
+
+#card6:hover{
+	filter: blur(0px);
+}
+
+#card7:hover{
+	filter: blur(0px);
+}
+
+#card8:hover{
+	filter: blur(0px);
+}
+
+#card9:hover{
+	filter: blur(0px);
+}
+
+#card10:hover{
+	filter: blur(0px);
+}
+
+#card11:hover{
+	filter: blur(0px);
+}
+
+#card12:hover{
+	filter: blur(0px);
+}
+
+#card13:hover{
+	filter: blur(0px);
+}
+
+#card14:hover{
+	filter: blur(0px);
+}
+
+#card15:hover{
+	filter: blur(0px);
+}
+
+#card16:hover{
+	filter: blur(0px);
+}
+
+#card17:hover{
+	filter: blur(0px);
+}
+
+#card18:hover{
+	filter: blur(0px);
+}
+
+#card1open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #57a570;
+	font-weight: 400;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+ 
+
+#card2open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #1b503d;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+
+#card3open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #005a40;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card4open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #395146;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card5open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #9bb456;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card6open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #22422e;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+
+#card7open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #4ab263;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card8open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #0e9b70;
+	font-weight: 400;
+	position: relative;
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+#card9open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #09893f;
+	font-weight: 400;
+	position: relative;
+
+}
+
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card10open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #0f8252;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card11open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #5ab543;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+
+#card12open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #48876d;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card13open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #205852;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card14open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #212d21;
+	font-weight: 400;
+	position: relative;
+
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card15open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #0f8252;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card16open{
+	transform-origin: 50%;
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #364c35;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card17open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #3dab60;
+	font-weight: 400;
+	position: relative;
+	margin-top: 50px;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+#card18open{
+	background-color: white;
+	filter: blur(0px);
+	font-size: 14px;
+	line-height: 1.4em;
+	word-break: keep-all;
+	color: #32a352;
+	font-weight: 400;
+	position: relative;
+}
+.tile{font-size:20px;
+	margin-top: 5px;
+	margin-bottom: 12px; 
+}
+
+.formobile{
+display: none;
+}
+
+@media screen and (max-width: 700px){
+.formobile{
+display: block;
+z-index: 10000;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: white;
+box-sizing: border-box;
+overflow: hidden;
+text-align: center;
+}
+
+.formobile-p{
+display: block;
+z-index: 10001;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+font-size: 15px;
+font-weight: normal;
+line-height: 1.4;
+color: black;
+background-color: white;
+-webkit-box-sizing: inherit;
+box-sizing: inherit;
+text-decoration: none;
+overflow: hidden;
+text-align: center;
+}
+}
+
+
+
